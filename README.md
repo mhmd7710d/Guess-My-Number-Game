@@ -12,13 +12,10 @@ Download this repository, then open index.html in a browser.
 - Hints for guesses that are too high or too low.
 - Score tracking and a high score for the current session.
 - An Again button that starts a new round.
+- Works on mobile screens.
 
 ## Credits
 A learning project based on Jonas Schmedtmann's Complete JavaScript Course.
 
 ## Future improvements
-- Stop score changes when the round is over.
 - Accept only whole numbers between 1 and 20.
-- Improve the layout on mobile screens.
-
-These improvements have not been implemented yet.
