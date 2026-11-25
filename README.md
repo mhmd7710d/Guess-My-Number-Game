@@ -19,3 +19,8 @@ A learning project based on Jonas Schmedtmann's Complete JavaScript Course.
 
 ## Future improvements
 - Accept only whole numbers between 1 and 20.
+
+## Contact
+- LinkedIn: https://www.linkedin.com/in/muhammad-fathi-b7a693424/
+- Email: muhammutfathi@gmail.com
+- WhatsApp: https://wa.me/201040428475?text=Hi+Mohamed%2C+I+found+your+project+on+GitHub.
