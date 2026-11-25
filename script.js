@@ -3,11 +3,13 @@
 let randomNum = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
+let gameOver = false;
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
 
 document.querySelector('.check').addEventListener('click', function () {
+  if (gameOver) return;
   const guess = Number(document.querySelector('.guess').value);
   if (!guess) {
     displayMessage('Please Chosse A Number First !!!');
@@ -19,6 +21,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.number').textContent = randomNum;
       document.querySelector('body').style.backgroundColor = '#20da3c';
       document.querySelector('.number').style.width = '90rem';
+      gameOver = true;
       if (score > highscore) {
         highscore = score;
         document.querySelector('.highscore').textContent = highscore;
@@ -38,6 +41,7 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 document.querySelector('.again').addEventListener('click', function () {
+  gameOver = false;
   score = 20;
   randomNum = Math.trunc(Math.random() * 20) + 1;
   document.querySelector('.number').textContent = '?';
