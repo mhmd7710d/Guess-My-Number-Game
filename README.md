@@ -1,24 +1,27 @@
 # Guess My Number
 
-Guess a random number between 1 and 20 in this browser game.
+A small browser game: the computer picks a number between 1 and 20, you guess it, and it tells you whether you are too high or too low until you find it.
+
+**Play it:** https://mhmd7710d.github.io/Guess-My-Number-Game/
+
+![Preview](preview.jpg)
+
+## How to play
+1. Type a number from 1 to 20 and press **Check!**
+2. The game says too high or too low, and every wrong guess costs one point.
+3. Find the number before the score reaches 0. The best score stays while the page is open; **Again!** starts a new round.
 
 ## Built with
-HTML, CSS and JavaScript.
+Plain HTML, CSS and JavaScript. No libraries and no build step.
 
-## How to run
-Download this repository, then open index.html in a browser.
+## What I practised
+Reading input and turning it into a number, `if`/`else` logic, changing the page from JavaScript, keeping state (score and high score), and a layout that works on a phone.
 
-## Features
-- Hints for guesses that are too high or too low.
-- Score tracking and a high score for the current session.
-- An Again button that starts a new round.
-- Works on mobile screens.
+## Run it locally
+Download the repository and open `index.html` in any browser.
 
 ## Credits
 A learning project based on Jonas Schmedtmann's Complete JavaScript Course.
-
-## Future improvements
-- Accept only whole numbers between 1 and 20.
 
 ## Contact
 - LinkedIn: https://www.linkedin.com/in/muhammad-fathi-b7a693424/
